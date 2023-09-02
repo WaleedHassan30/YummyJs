@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Set the character encoding to UTF-8 -->
+  <meta charset="UTF-8" />
+
+  <!-- Set the compatibility mode for Internet Explorer -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Set the viewport properties for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Set the title of the webpage -->
+  <title>Yummy</title>
+
+  <!-- Define the favicon for the webpage -->
+  <link rel="icon" type="image/x-icon" href="./Assets/img/logo.png">
+
+  <!-- Include the Bootstrap CSS file -->
+  <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" />
+
+  <!-- Include the Font Awesome CSS file -->
+  <link rel="stylesheet" href="./Assets/css/font-awesome.min.css" />
+
+  <!-- Include a custom CSS file for additional styling -->
+  <link rel="stylesheet" href="./Assets/css/style.css" />
+</head>
+
+<body>
+
+<!-- Loading Spinner Container -->
+<div id="loading" class="justify-content-center align-items-center">
+    <!-- Loading Spinner (Animated) -->
+    <div class="sk-circle circleContainer">
+      <!-- Individual spinner circles -->
+      <div class="sk-circle1 sk-child"></div>
+      <div class="sk-circle2 sk-child"></div>
+      <div class="sk-circle3 sk-child"></div>
+      <div class="sk-circle4 sk-child"></div>
+      <div class="sk-circle5 sk-child"></div>
+      <div class="sk-circle6 sk-child"></div>
+      <div class="sk-circle7 sk-child"></div>
+      <div class="sk-circle8 sk-child"></div>
+      <div class="sk-circle9 sk-child"></div>
+      <div class="sk-circle10 sk-child"></div>
+      <div class="sk-circle11 sk-child"></div>
+      <div class="sk-circle12 sk-child"></div>
+    </div>
+  </div>
+  
+  <!-- Navigation Container -->
+  <div id="navigation" class="vh-100 position-fixed d-flex flex-column justify-content-between">
+    <!-- Navigation Links -->
+    <div id="navLinks" class="overflow-hidden">
+      <!-- Unordered list for navigation links -->
+      <ul class="mt-4 ms-4 position-relative hide">
+        <!-- Navigation link 1 -->
+        <li class="py-2">
+          <a href="" id="search">Search</a>
+        </li>
+        <!-- Navigation link 2 -->
+        <li class="py-2">
+          <a href="" id="categories">Categories</a>
+        </li>
+        <!-- Navigation link 3 -->
+        <li class="py-2">
+          <a href="" id="area">Area</a>
+        </li>
+        <!-- Navigation link 4 -->
+        <li class="py-2">
+          <a href="" id="ingredients">Ingredients</a>
+        </li>
+        <!-- Navigation link 5 -->
+        <li class="py-2">
+          <a href="" id="contactUs">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  
+    <!-- Navigation Footer -->
+    <div id="navFooter" class="ms-4 py-4 text-white">
+      <!-- Social media links -->
+      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <a href=""><i class="fa-brands fa-twitter"></i></a>
+      <a href=""><i class="fa-solid fa-globe"></i></a>
+      <!-- Copyright text -->
+      <p>Copyright © 2023 All Rights Reserved. Waleed Hassan</p>
+    </div>
+  
+    <!-- Navigation Control Container -->
+    <div id="navCtrl" class="d-flex flex-column justify-content-between align-items-center bg-white vh-100 px-4">
+      <!-- Logo -->
+      <img id="logo" src="./Assets/img/logo.png" alt="Logo" width="50px" class="mt-3">
+      <!-- Hamburger icon for mobile navigation -->
+      <a href=""><i class="navCtrlIcon fa-solid fa-bars fa-2x" style="color: black;"></i></a>
+      <!-- Additional navigation control icons -->
+      <div class="navCtrlIcons d-flex flex-column mb-3">
+        <a href=""><i class="fa-solid fa-globe"></i></a>
+        <a href=""><i class="fa-solid fa-share-nodes"></i></a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Main Content Section -->
+  <section id="content">
+    <!-- Placeholder for search bars -->
+    <div id="searchBars"></div>
+  
+    <!-- Placeholder for meal information -->
+    <div id="mealInfo"></div>
+  
+    <!-- Row for displaying meal items -->
+    <div class="row" id="meals"></div>
+  
+    <!-- Row for displaying categories -->
+    <div class="row ms-lg-5 px-lg-5" id="Cat"></div>
+  
+    <!-- Row for displaying areas -->
+    <div class="row ms-lg-5 px-lg-5" id="areas"></div>
+  
+    <!-- Row for displaying ingredients -->
+    <div class="row ms-lg-5 px-lg-5" id="Ing"></div>
+  
+    <!-- Form container for contact information -->
+    <form id="contactForm" class="row d-flex flex-column justify-content-center align-items-center">
+    </form>
+  </section>
+  
+<!-- --------------------------------------------------------- -->
+  <script src="Assets/js/bootstrap.bundle.min.js"></script>
+  <!-- Include the Bootstrap JavaScript file with bundled plugins -->
+  
+  <script src="Assets/js/jquery-3.7.1.js"></script>
+  <!-- Include the jQuery library -->
+
+  <script src="Assets/js/app.js"></script>
+  <!-- Include a custom JavaScript file -->
+  <!-- This file contains custom JavaScript code specific to the application. It may include logic for handling user interactions, making API calls, manipulating the DOM, etc. -->
+</body>
+
+</html>
